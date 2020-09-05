@@ -32,3 +32,13 @@
 .deaths_data {
   color: red;
 }
+
+@media (max-width: 576px) {
+  .cases_card,
+  .active_card,
+  .recovered_card,
+  .deaths_card {
+    height: 6rem;
+    width: 10rem;
+  }
+}

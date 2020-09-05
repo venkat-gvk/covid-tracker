@@ -5,11 +5,12 @@
   justify-content: space-between;
   text-align: center;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .main__header header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 1.4rem;
   width: 100vw;
@@ -38,6 +39,7 @@
 
 .main__worldwide {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +53,7 @@
 
 .main__country {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: space-evenly;
   padding: 0 2rem;
@@ -59,6 +62,7 @@
 
 .main__country-renderdata {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -81,6 +85,7 @@
 
 .country-table tr {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
 }
@@ -99,6 +104,7 @@
 .main__charts {
   margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-top: 7px;
@@ -107,4 +113,33 @@
 .main__charts .chart {
   margin-right: 0.5rem;
   width: 88%;
+}
+
+@media (max-width: 576px) {
+  .main__country-list {
+    display: none;
+  }
+  .main__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__country-renderdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__charts .chart {
+    width: 24rem;
+    height: 14rem;
+  }
+
+
+  .main__worldwide {
+    display: none;
+  }
 }
