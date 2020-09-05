@@ -1,0 +1,34 @@
+.cases_card,
+.active_card,
+.recovered_card,
+.deaths_card {
+  margin-bottom: 0.5rem;
+  height: 6.4rem;
+  width: 9rem;
+}
+
+.cases_card {
+  border-bottom: 5px solid blue;
+}
+.active_card {
+  border-bottom: 5px solid orange;
+}
+.recovered_card {
+  border-bottom: 5px solid green;
+}
+.deaths_card {
+  border-bottom: 5px solid red;
+}
+
+.cases_data {
+  color: blue;
+}
+.active_data {
+  color: orange;
+}
+.recovered_data {
+  color: green;
+}
+.deaths_data {
+  color: red;
+}

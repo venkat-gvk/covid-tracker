@@ -1,0 +1,110 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main__header header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.4rem;
+  width: 100vw;
+}
+
+.main__corona-tracker {
+  color: rgb(192, 20, 115);
+}
+
+.main__last-updated {
+  color: lightseagreen;
+  margin-top: 9px;
+}
+
+.main__body {
+  width: 100vw;
+  height: 100%;
+}
+
+.main__section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main__worldwide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 12rem;
+}
+
+.main__text-worldwide {
+  margin-bottom: 1rem;
+  margin-top: 0.8rem;
+}
+
+.main__country {
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  padding: 0 2rem;
+  width: 50rem;
+}
+
+.main__country-renderdata {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main__country-list {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  justify-content: space-between;
+}
+
+.main__country-list-case-heading {
+  margin-bottom: 1.5rem;
+}
+
+.country-table {
+  overflow-y: scroll;
+  height: 28.7rem;
+  background-color: white;
+}
+
+.country-table tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.country-table tr:nth-of-type(odd) {
+  background-color: azure;
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.main__charts {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.main__charts .chart {
+  margin-right: 0.5rem;
+  width: 88%;
+}
