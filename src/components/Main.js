@@ -95,12 +95,13 @@ const Main = () => {
                   <div className="main__country-renderdata">
                     <RenderData data={country} />
                   </div>
-
-                  <CountryMenu
-                    countries={countries}
-                    input={input}
-                    setInput={setInput}
-                  />
+                  <div className="main__menubutton">
+                    <CountryMenu
+                      countries={countries}
+                      input={input}
+                      setInput={setInput}
+                    />
+                  </div>
 
                   <div className="main__charts">
                     <div className="chart">

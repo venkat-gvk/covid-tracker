@@ -115,6 +115,10 @@
   width: 88%;
 }
 
+.main__menubutton {
+  display: flex;
+}
+
 @media (max-width: 576px) {
   .main__country-list {
     display: none;
@@ -134,10 +138,12 @@
   }
 
   .main__charts .chart {
-    width: 24rem;
-    height: 14rem;
+    width: 42%;
   }
 
+  .main__menubutton {
+    padding-left: 1.5rem;
+  }
 
   .main__worldwide {
     display: none;
